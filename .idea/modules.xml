@@ -9,7 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/Enterprise_Edition/O5_Mapping_Spec/O5_Mapping_Spec.iml" filepath="$PROJECT_DIR$/Enterprise_Edition/O5_Mapping_Spec/O5_Mapping_Spec.iml" />
       <module fileurl="file://$PROJECT_DIR$/Enterprise_Edition/O6_POS_APP/O6_POS_APP.iml" filepath="$PROJECT_DIR$/Enterprise_Edition/O6_POS_APP/O6_POS_APP.iml" />
       <module fileurl="file://$PROJECT_DIR$/Enterprise_Edition/O7_JSP/O7_JSP.iml" filepath="$PROJECT_DIR$/Enterprise_Edition/O7_JSP/O7_JSP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Enterprise_Edition/O9_TestApp/O9_TestApp.iml" filepath="$PROJECT_DIR$/Enterprise_Edition/O9_TestApp/O9_TestApp.iml" />
     </modules>
   </component>
 </project>
