@@ -15,10 +15,15 @@ public class CustomerServlet extends HttpServlet {
         System.out.println("Methods Invoked");
 
         ServletInputStream inputStream = req.getInputStream();
-        int read = inputStream.read();
+       /* int read = inputStream.read();
         System.out.println((char) read);
 
         int read1 = inputStream.read();
-        System.out.println((char) read1);
+        System.out.println((char) read1);*/
+
+        int read;
+        while ((read=inputStream.read())!=-1){
+            System.out.println(read);
+        }
     }
 }
