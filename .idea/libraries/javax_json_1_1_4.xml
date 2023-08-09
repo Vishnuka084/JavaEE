@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="javax.json-1.1.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/json-p/javax.json-1.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json-p/javax.json-api-1.1.4.jar!/" />
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/Enterprise_Edition/O2_Hello_JavaEE/src" />
+      <root url="file://$PROJECT_DIR$/Enterprise_Edition/O3_App/src" />
+      <root url="file://$PROJECT_DIR$/Enterprise_Edition/O4_Contact_Form/src" />
+      <root url="file://$PROJECT_DIR$/Enterprise_Edition/O5_Mapping_Spec/src" />
+      <root url="file://$PROJECT_DIR$/Enterprise_Edition/O6_POS_APP/src" />
+      <root url="file://$PROJECT_DIR$/Enterprise_Edition/O7_JSP/src" />
+      <root url="file://$PROJECT_DIR$/Enterprise_Edition/O9_JSON_Processing/src" />
+    </SOURCES>
+  </library>
+</component>

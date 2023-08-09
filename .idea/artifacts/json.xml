@@ -6,9 +6,7 @@
         <element id="directory" name="classes">
           <element id="module-output" name="O9_JSON_Processing" />
         </element>
-        <element id="directory" name="lib">
-          <element id="library" level="project" name="mysql-connector-j-8.1.0" />
-        </element>
+        <element id="directory" name="lib" />
       </element>
       <element id="javaee-facet-resources" facet="O9_JSON_Processing/web/Web" />
     </root>

@@ -1,3 +1,6 @@
+import javax.json.Json;
+import javax.json.JsonReader;
+import javax.json.JsonStructure;
 import javax.servlet.ServletException;
 import javax.servlet.ServletInputStream;
 import javax.servlet.annotation.WebServlet;
@@ -21,9 +24,16 @@ public class CustomerServlet extends HttpServlet {
         int read1 = inputStream.read();
         System.out.println((char) read1);*/
 
-        int read;
+        /*int read;
         while ((read=inputStream.read())!=-1){
             System.out.println(read);
-        }
+        }*/
+
+
+        JsonReader reader = Json.createReader(req.getReader());
+        JsonStructure jsonObject = reader.read();
+        String id =jsonObject.getString("id");
+
+
     }
 }
