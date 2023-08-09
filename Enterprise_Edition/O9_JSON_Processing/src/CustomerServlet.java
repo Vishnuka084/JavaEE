@@ -32,7 +32,6 @@ public class CustomerServlet extends HttpServlet {
 
         JsonReader reader = Json.createReader(req.getReader());
         JsonStructure jsonObject = reader.read();
-        String id =jsonObject.getString("id");
 
 
     }
