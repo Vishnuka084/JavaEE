@@ -1,4 +1,5 @@
 import javax.servlet.ServletException;
+import javax.servlet.ServletInputStream;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -11,8 +12,13 @@ public class CustomerServlet extends HttpServlet {
 
     @Override
     protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("SomeOne called DO PUT methods");
-        String id = req.getParameter("id");
-        System.out.println(id);
+        System.out.println("Methods Invoked");
+
+        ServletInputStream inputStream = req.getInputStream();
+        int read = inputStream.read();
+        System.out.println((char) read);
+
+        int read1 = inputStream.read();
+        System.out.println((char) read1);
     }
 }
