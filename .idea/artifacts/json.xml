@@ -1,8 +1,7 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="json">
+  <artifact type="war" name="json">
     <output-path>$PROJECT_DIR$/out/artifacts/json</output-path>
-    <root id="root">
-      <element id="javaee-facet-resources" facet="O9_JSON_Processing/web/Web" />
+    <root id="archive" name="json.war">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="O9_JSON_Processing" />
@@ -11,6 +10,7 @@
           <element id="library" level="project" name="mysql-connector-j-8.1.0" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="O9_JSON_Processing/web/Web" />
     </root>
   </artifact>
 </component>
