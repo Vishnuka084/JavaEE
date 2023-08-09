@@ -12,5 +12,7 @@ public class CustomerServlet extends HttpServlet {
     @Override
     protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("SomeOne called DO PUT methods");
+        String id = req.getParameter("id");
+        System.out.println(id);
     }
 }
